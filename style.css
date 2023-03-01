@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+
+:root {
+	--peach: #ffd699;
+	--accent: #ed8e00;
+}
+
+::-webkit-scrollbar {
+	width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+	border: 3px solid transparent;
+	background-clip: padding-box;
+	border-radius: 9999px;
+	background-color: var(--accent);
+}
+
+* {
+	font-family: "Oxygen", sans-serif;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Vidaloka", serif;
+}
+
+footer {
+	padding: 5rem 10rem;
+}
+footer i {
+	color: white;
+}
+footer .nav-link:hover,
+footer .nav-link:hover i {
+	color: var(--accent) !important;
+}
+
+.hero {
+	background: url("./assets/Intersect.png") no-repeat;
+	background-position: right top;
+	background-color: var(--peach);
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.vr {
+	height: 30px;
+}
+
+.nav-link.active {
+	border-bottom: 3px solid var(--accent);
+}
+
+.heading1 {
+	font-size: 80px;
+}
+
+.heading2 {
+	font-size: 70px;
+}
+
+.heading3 {
+	font-size: 45px;
+}
+
+.featured {
+	height: 500px;
+}
+
+.text-yellow {
+	color: var(--accent);
+}
+
+.carousel-item img {
+	-o-object-fit: cover;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+}
+
+.btn-yellow {
+	background-color: var(--accent);
+	padding: 10px 40px;
+	color: white;
+	border: none;
+}
+
+
+.carousel-control-prev,
+.carousel-control-prev:hover,
+.carousel-control-prev:focus {
+	color: black;
+}
+
+.carousel-control-next,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+	color: var(--accent);
+}
